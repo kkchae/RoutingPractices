@@ -1,3 +1,7 @@
+###################################
+# OR-Tools Excercise
+# TSP
+
 from ortools import pywrapcp
 
 def create_data_model():
@@ -25,6 +29,7 @@ def create_data_model():
 data = None
 manager = None
 routing = None
+
 
 def distance_callback(from_index, to_index):
     """Returns the distance between the two nodes."""
